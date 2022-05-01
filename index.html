@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="portfoli.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="vanila.js"></script>
+    <title>PolakaWeb</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" src="index.html">
+                  Inicio
+                </a>
+
+                <a class="navbar-item" href="#anchor2">
+                  Sobre
+                </a>
+          
+                <a class="navbar-item" href="#anchor">
+                  Contato
+                </a>
+
+                <a class="navbar-item" href="https://github.com/PolakaOficial?tab=repositories" target="_blank">
+                  Repositorio
+                </a>
+                </div>
+          </nav>
+          
+      </header>
+          <div class="boasVindas">
+            <h1>Olá, Meu nome é Matheus Polacchini</h1>
+            <h3>Seja Bem Vindo ao meu site</h3>
+          </div>
+        
+        
+    </div>
+    <article>
+      <div class="container">
+          <div class="card" id="anchor2">
+              <div class="content">
+                  <h2>01</h2>
+                  <h3>Sobre mim</h3>
+                  <p>
+                    Sou um Desenvolvedor Front-End em desenvolvimento,
+                    busco sempre aprender algo novo para me estruturar no mercado.
+                  </p>
+                  <a href="https://www.linkedin.com/in/matheus-polacchini/" target="_blank">Mais informações</a>
+              </div>
+          </div>
+  
+          <div class="card">
+              <div class="content">
+                  <h2>02</h2>
+                  <h3>Soft Skills</h3>
+                  <p>
+                    • Comunicação eficaz.<br>
+                    • Trabalho em equipe.<br>
+                    • Liderança.<br>
+                    • Metodologias ageis.<br>
+                    • Flexibilidade.<br>
+                    • Trabalhar sob pressão.<br>
+                  </p>
+              </div>
+          </div>
+  
+          <div class="card">
+              <div class="content">
+                  <h2>03</h2>
+                  <h3>Cursos</h3>
+                  <p>
+                    • Programa Oracle Next Education Programador <br>Front-End. <br>
+                      <br>
+                    • Programador Full Stack JavaScript PRO.                
+                      
+                  </p>
+                  
+              </div>
+          </div>
+      </div>
+      
+      <script>
+          VanillaTilt.init(document.querySelectorAll(".card"), {
+              max: 25,
+              speed: 400,
+              glare: true,
+          });
+      </script>
+      <form action="https://formsubmit.co/polacchinimatheus91@gmail.com" method="POST">
+        
+        <div class="contato" id="anchor">
+          <h1>Contato</h1>
+            <div class="field">
+              <label class="label">Nome*</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Digite aqui!!" name="name">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email*</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email" name="email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
+              <p class="help is-danger">This email is invalid</p>
+            </div>
+
+            <div class="field">
+              <label class="label">Mesagem*</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Texto"></textarea>
+              </div>
+            </div>
+
+            
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link" type="submit">Conclúido</button>
+              </div>
+            </div>
+        </div>
+      </form>
+        <div class="direitos">
+          <H4>Todos os direitos reservados</H4>
+        </div>
+    </article>
+        
+      
+
+</body>
+</html>

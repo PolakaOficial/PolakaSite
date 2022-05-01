@@ -1,0 +1,146 @@
+body{
+    background-image: url(https://burst.shopifycdn.com/photos/fog-on-dark-waters-edge.jpg?width=925&format=pjpg&exif=1&iptc=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar{
+    background-color: gray ;
+    background: transparent ;
+    backdrop-filter: drop-shadow(4px 4px 10px blue);
+    border: solid 1px gray;
+}
+
+.boasVindas h1{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 50px;
+}
+
+.boasVindas h3{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: large;
+}
+
+.boasVindas{
+    margin-top: 200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 300px;
+}
+
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(250, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    transform: translate(0px);
+    opacity: 1;
+}
+
+.container .card .content h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.005);
+    pointer-events: none;
+}
+.container .card .content h3{
+    font-size: 1.8em;
+    color: darkslategray;
+    z-index: 1;
+}
+
+.container .card .content p{
+    font-size: 1em;
+    color:darkslategray ;
+    font-weight: 300;
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: gray;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contato h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'oswald';
+}
+
+
+.contato{
+    margin: 30%;
+    margin-top: 500px;
+    
+    
+}
+
+.input{
+    background: transparent ;
+    backdrop-filter: blur(6px);
+    border: solid 1px gray;
+    color:darkslategray;
+}
+
+.textarea{
+    background: transparent ;
+    backdrop-filter: blur(6px);
+    border: solid 1px gray;
+    color: red;
+}
+
+.direitos{
+    color: red;
+}
+
+.label{
+    color:brown;
+}
